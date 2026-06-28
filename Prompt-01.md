@@ -129,7 +129,10 @@ Perform Initial Data Cleaning (Before EDA). Perform activities like
 * Any other activities which will be critical to perform before the EDA. (Deeper cleaning and missing value treatment will be performed after EDA)
 
 
-
-
-
-The Review Text column is the most critical feature for our Generative AI model. What should be done with rows where this text is missing?
+# Deep Cleaning & Preprocessing (After EDA)
+Perform Deep Cleaning & Preprocessing (After EDA)
+Analyze and identify any deep cleaning and pre-processing activities needed. Perform the activities including
+* Handle missing values (e.g., mean imputation vs. dropping based on what EDA reveals).
+* Treat complex outliers or erroneous noise.
+* Encode categorical variables into numbers.
+* Scale and normalize numerical features.
