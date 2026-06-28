@@ -7,16 +7,16 @@ Analyze the problem statement and provide following Details as markdown file:
 
 1. Business Context:
   Why is this problem important to solve?
-  Why is analyzing retail feedback important for a business?
+    Why is analyzing retail feedback important for a business?
 
 2. Objective: 
   What is the intended goal?
-  What is the intended goal of automating this process? 
+    What is the intended goal of automating this process? 
 
 3. Dataset Used for the Project
   Describe dataset used for this project.
-  Key patterns from ratings, departments, and word clouds 
-  Any data treatments or preprocessing required
+    Key patterns from ratings, departments, and word clouds 
+    Any data treatments or preprocessing required
 
 
 
@@ -118,3 +118,18 @@ print(f"   - The data is ready for exploratory data analysis and preprocessing."
 
 print("")
 print("=" * 80)
+
+
+
+# Initial Data Cleaning (Before EDA)
+Perform Initial Data Cleaning (Before EDA). Perform activities like
+* Identify and Remove duplicate rows.
+* Fix incorrect or mixed data types
+* Handle obvious, fatal errors
+* Any other activities which will be critical to perform before the EDA. (Deeper cleaning and missing value treatment will be performed after EDA)
+
+
+
+
+
+The Review Text column is the most critical feature for our Generative AI model. What should be done with rows where this text is missing?
